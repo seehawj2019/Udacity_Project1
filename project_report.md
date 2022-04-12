@@ -27,7 +27,7 @@ TODO: I would spend more time of hyper parameter tuning.  This is something that
 model	hpo1	hpo2	hpo3	score
 0	initial	None	None	None	1.40864
 1	add_features	None	None	None	1.82494
-2	hpo	neural network	GBM	None	1.40864
+2	hpo	num_epochs	learning_rate	activation	1.40864
 
 
 
