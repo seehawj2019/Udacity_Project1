@@ -25,9 +25,10 @@ TODO: I would spend more time of hyper parameter tuning.  This is something that
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 
 model	hpo1	hpo2	hpo3	score
-0	initial	None	None	None	1.40864
-1	add_features	None	None	None	1.82494
-2	hpo	num_epochs	learning_rate	activation	1.40864
+initial	Default	Default	Default	1.40864
+add_features	Default	Default	Default	1.82494
+hpo	NN epochs:10, learningrate: 1e-4, 1e-2, default=5e-4, log=True, activation: relu, softrelu, tanh, dropoutrob (0.0, 0.5, default=0.1)	GBM num_boost_round: 100, num_leaves (lower=26, upper=66, default=36)	Default	1.40864
+
 
 
 
